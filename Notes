@@ -32,4 +32,19 @@
 
     2. Binary Euclidean Algorithm: A variation of the Euclidean algorithm that uses binary arithmetic for faster computation.
 
-    3. Stein's Algorithm: Also known as the binary GCD algorithm, it is an efficient algorithm that uses bitwise operations.
+    3. Stein Algorithm: Also known as the binary GCD algorithm, it is an efficient algorithm that uses bitwise operations.
+
+7. When u want to change back to ur usrname or email use this command in git
+    git config --global user.name "<username>"
+    git config --global user.email "<email>"
+    git config --global user.name
+        <username>
+    git config --global user.email
+        <email>
+    git credential-cache exit
+        -- to roll back thet crendential that is active
+    git remote set-url origin "<link of your github repository>"
+        -- used to set the repository link 
+    git branch -M <branch name>
+        -- to go <branch name> branch
+    
