@@ -1,0 +1,41 @@
+1. Hash function for quadratic probing
+2. Same for linear probing
+3. Given an array and make a hash  function using quadratic probing and then put the 
+   values in the hashmap using that hash function and print the keys from top to bottom 
+   present in the map.
+4. Right Traversal / Left Traversal
+5. Lexi graphical sorting
+6. binary search (Hard)
+7. Bfs/Dfs graph
+8. Knapsack
+9. Heaping
+10. Longest subsequence 
+11. Reduce no to zero
+12. Inversion count
+13. Isomorphic String
+14. top view and bottom view of a tree
+
+--------------------------------------
+
+
+Aggressive Cows 
+Book Allocation 
+*Top view/Bottom view                  
+kmp,z index
+quadratic/linear probing
+inversion count
+Graphs BFS DFS only with Theory
+Diameter and leetcode QUESTION 100 and 101  
+*Left View,Right View                     
+RedBlack Trees 
+Time Complexities
+Tower of Hanoi
+ALV Trees
+reduce Array To Zero
+Greedy Algo 
+Knapsack
+*LCS
+LinkedList Cycles(cycle detection and Happy Number)
+HashMap Collisions  
+Binary Tree and BST Boiler Plate
+Deleteion of a Node in Bst and Balancing it

@@ -1,0 +1,4 @@
+Z-Algorithm
+Window Slicing
+KMP algorithnm
+Algo.io // 

@@ -1,0 +1,42 @@
+Truth table for OR 
+
+A   B   A|B
+0   0   0
+1   0   1
+0   1   1
+1   1   1
+
+
+
+
+Truth table for AND 
+
+A   B   A&B
+0   0   0
+1   0   0
+0   1   0
+1   1   1
+
+
+
+
+Truth table for XOR 
+
+A   B   A^B
+0   0   0
+1   0   1
+0   1   1
+1   1   0
+
+
+
+
+Truth table for ~A
+
+A   ~A
+1   0
+0   1
+
+8 4 2 1
+1     1
+    

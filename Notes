@@ -1,0 +1,35 @@
+1. To swap two number we can use XOR operator
+    a=5
+    b=6
+    a = a^b
+    b = a^b
+    a = a^b
+
+2. b.erase(remove(b.begin(),b.end(),'0'),b.end());
+
+3. Total sub array can be formed is-: n*(n+1)/2; with repeated element
+
+3. to convert a string into number by left shifting the numbers 
+    curr = curr*10+s[i]-'0'; in for loop
+    curr = curr*10+s[i++]-'0'; in while loop or some other
+
+4.  pq.push({-it.second,it.first}); 
+    // basically -sign make this max heap behave like a min heap
+
+5.  sort(v.begin(),v.end(),cmp);    
+
+    bool cmp(pair<int,int>a,pair<int,int>b){
+        return a.second < b.second; //  in ascedning order 
+        // second because we need end time 
+    }
+
+    this is an custom operator used in greedy aproach.. 
+    sorting based on end time .. (N meetings room *GFG*)
+
+6. In coding, finding the GCD is a common problem, and there are various algorithms to compute it efficiently. Some well-known algorithms for finding the GCD include:
+
+    1. Euclidean Algorithm: It is an efficient method based on the principle that the GCD of two numbers is the same as the GCD of the smaller number and the remainder of the larger number divided by the smaller number.
+
+    2. Binary Euclidean Algorithm: A variation of the Euclidean algorithm that uses binary arithmetic for faster computation.
+
+    3. Stein's Algorithm: Also known as the binary GCD algorithm, it is an efficient algorithm that uses bitwise operations.
