@@ -47,4 +47,47 @@
         -- used to set the repository link 
     git branch -M <branch name>
         -- to go <branch name> branch
-    
+
+8. Sure, here are 10 challenging string-based problems that are often asked in technical interviews, particularly for software engineering positions:
+
+    1. **Longest Palindromic Substring**:
+    - **Problem**: Given a string, find the longest substring which is a palindrome.
+    - **Example**: Input: "babad", Output: "bab" or "aba"
+
+    2. **Regular Expression Matching**:
+    - **Problem**: Implement a regular expression matching with support for '.' and '*'.
+    - **Example**: Input: s = "aab", p = "c*a*b", Output: true
+
+    3. **Word Break**:
+    - **Problem**: Given a string and a dictionary of words, determine if the string can be segmented into a space-separated sequence of one or more dictionary words.
+    - **Example**: Input: s = "leetcode", wordDict = ["leet", "code"], Output: true
+
+    4. **Minimum Window Substring**:
+    - **Problem**: Given a string S and a string T, find the minimum window in S which will contain all the characters in T.
+    - **Example**: Input: S = "ADOBECODEBANC", T = "ABC", Output: "BANC"
+
+    5. **Edit Distance**:
+    - **Problem**: Given two words, calculate the minimum number of operations required to convert one word into the other.
+    - **Example**: Input: word1 = "horse", word2 = "ros", Output: 3
+
+    6. **Longest Substring Without Repeating Characters**:
+    - **Problem**: Given a string, find the length of the longest substring without repeating characters.
+    - **Example**: Input: "abcabcbb", Output: 3 (substring "abc")
+
+    7. **Find All Anagrams in a String**:
+    - **Problem**: Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
+    - **Example**: Input: s = "cbaebabacd", p = "abc", Output: [0, 6]
+
+    8. **String to Integer (atoi)**:
+    - **Problem**: Implement the `atoi` function which converts a string to an integer.
+    - **Example**: Input: "42", Output: 42
+
+    9. **Longest Common Subsequence**:
+    - **Problem**: Given two strings, find the length of their longest common subsequence.
+    - **Example**: Input: "abcde", "ace", Output: 3
+
+    10. **Decode Ways**:
+        - **Problem**: A message containing letters from A-Z is encoded to numbers using the following mapping: 'A' -> 1, 'B' -> 2, ..., 'Z' -> 26. Given a string, determine the total number of ways to decode it.
+        - **Example**: Input: "226", Output: 3 (possible decodings are "BZ", "VF", and "BBF")
+
+    These problems test various aspects of string manipulation, including searching, pattern matching, dynamic programming, and more. They are commonly used in interviews to assess a candidate's problem-solving skills and understanding of algorithmic concepts.
