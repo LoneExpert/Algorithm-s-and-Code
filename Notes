@@ -71,7 +71,7 @@
     - **Example**: Input: word1 = "horse", word2 = "ros", Output: 3
 
     6. **Longest Substring Without Repeating Characters**:
-    - **Problem**: Given a string, find the length of the longest substring without repeating characters.
+    - **Problem**: Given a string, find the length of the longest substring without repeating characters.   
     - **Example**: Input: "abcabcbb", Output: 3 (substring "abc")
 
     7. **Find All Anagrams in a String**:
