@@ -28,8 +28,8 @@ int main()
             cin>>prices[i];
         }
 
-        int minprice = INT_MAX;
-        int maxprofit = 0;
+        long long minprice = INT_MAX;
+        long long maxprofit = 0;
 
         for(int i=0;i<n;i++){
             minprice = min(minprice, prices[i]);
@@ -41,3 +41,4 @@ int main()
     }
     return 0;
 }
+

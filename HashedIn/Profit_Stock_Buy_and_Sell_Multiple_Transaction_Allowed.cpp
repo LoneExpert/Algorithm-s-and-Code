@@ -20,8 +20,8 @@
 #include<vector>
 using namespace std;
 
-int Maximum(vector<int> &arr, int n){
-    int tp = 0;
+long long Maximum(vector<int> &arr, int n){
+    long long tp = 0;
 
     for(int i=1;i<n;i++){
         if(arr[i]>arr[i-1]){
@@ -46,3 +46,4 @@ int main()
     }
     return 0;
 }
+
