@@ -15,50 +15,6 @@
 
 // Last is 0 because there is no next greater element to this.
 
-// #include<iostream>
-// #include<vector>
-// #include<stack>
-// using namespace std;
-
-// int main()
-// {
-//     int t;
-//     cin>>t;
-//     while(t--){
-//         int n;
-//         cin>>n;
-//         vector<int>arr(n);
-
-//         for(int i=0;i<n;i++){
-//             cin>>arr[i];
-//         }
-
-//         stack<int>st;
-//         vector<int>res(n,0);
-
-//         for(int i=0;i<n;i++){
-//             while(!st.empty() && arr[i]>arr[st.top()]){
-//                 res[st.top()] = arr[i];
-//                 st.pop();
-//             }
-//             st.push(i);
-//         }
-
-//         while(!st.empty()){
-//             res[st.top()] = 0;
-//             st.pop();
-//         }
-
-//         for(int i=0;i<n;i++){
-//             cout<<res[i]<<" ";
-//         }cout<<endl;
-        
-//     }
-//     return 0;
-// }
-
-
-
 #include<iostream>
 #include<vector>
 #include<stack>
@@ -77,11 +33,11 @@ int main()
             cin>>arr[i];
         }
 
-        vector<int>res(n,0);
         stack<int>st;
+        vector<int>res(n,0);
 
         for(int i=0;i<n;i++){
-            while(!st.empty() && arr[st.top()]<arr[i]){
+            while(!st.empty() && arr[i]>arr[st.top()]){
                 res[st.top()] = arr[i];
                 st.pop();
             }
@@ -96,7 +52,10 @@ int main()
         for(int i=0;i<n;i++){
             cout<<res[i]<<" ";
         }cout<<endl;
-
+        
     }
     return 0;
 }
+
+
+

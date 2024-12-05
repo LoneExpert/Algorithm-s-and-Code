@@ -10,6 +10,39 @@
 // Single Day 
 // Multiple Transactions are not allowed
 
+// #include<iostream>
+// #include<vector>
+// #include<climits>
+// using namespace std;
+
+// int main()
+// {
+//     int t;
+//     cin>>t;
+//     while (t--){
+//         int n;
+//         cin>>n;
+//         vector<int>prices(n);
+
+//         for(int i=0;i<n;i++){
+//             cin>>prices[i];
+//         }
+
+//         long long minprice = INT_MAX;
+//         long long maxprofit = 0;
+
+//         for(int i=0;i<n;i++){
+//             minprice = min(minprice, prices[i]);
+//             maxprofit = max(maxprofit, prices[i]-minprice);
+//         }
+
+//         cout<<maxprofit<<endl;
+
+//     }
+//     return 0;
+// }
+
+
 #include<iostream>
 #include<vector>
 #include<climits>
@@ -19,26 +52,23 @@ int main()
 {
     int t;
     cin>>t;
-    while (t--){
+    while(t--){
         int n;
         cin>>n;
-        vector<int>prices(n);
-
+        vector<int>arr(n);
         for(int i=0;i<n;i++){
-            cin>>prices[i];
+            cin>>arr[i];
         }
 
-        long long minprice = INT_MAX;
-        long long maxprofit = 0;
+        int minval = INT_MAX;
+        int maxprofit = 0;
 
         for(int i=0;i<n;i++){
-            minprice = min(minprice, prices[i]);
-            maxprofit = max(maxprofit, prices[i]-minprice);
+            minval = min(minval,arr[i]);
+            maxprofit = max(maxprofit,arr[i]-minval);
         }
-
+        
         cout<<maxprofit<<endl;
-
     }
     return 0;
 }
-

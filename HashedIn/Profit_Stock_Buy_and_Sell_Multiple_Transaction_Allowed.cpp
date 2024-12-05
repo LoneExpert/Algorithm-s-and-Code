@@ -16,16 +16,49 @@
 
 // Multiple Transactions allowed
 
+// #include<iostream>
+// #include<vector>
+// using namespace std;
+
+// long long Maximum(vector<int> &arr, int n){
+//     long long tp = 0;
+
+//     for(int i=1;i<n;i++){
+//         if(arr[i]>arr[i-1]){
+//             tp+=arr[i]-arr[i-1];
+//         }
+//     }
+//     return tp;
+// }
+
+// int main()
+// {
+//     int t;
+//     cin>>t;
+//     while(t--){
+//         int n;
+//         cin>>n;
+//         vector<int>arr(n);
+//         for(int i=0;i<n;i++){
+//             cin>>arr[i];
+//         }
+//         cout<<Maximum(arr,n)<<endl;
+//     }
+//     return 0;
+// }
+
+
 #include<iostream>
 #include<vector>
+#include<stack>
 using namespace std;
 
-long long Maximum(vector<int> &arr, int n){
-    long long tp = 0;
+int Maxprofit(vector<int> &prices, int n) {
+    int tp = 0;
 
     for(int i=1;i<n;i++){
-        if(arr[i]>arr[i-1]){
-            tp+=arr[i]-arr[i-1];
+        if(prices[i]>prices[i-1]){
+            tp+=prices[i]-prices[i-1];
         }
     }
     return tp;
@@ -38,12 +71,13 @@ int main()
     while(t--){
         int n;
         cin>>n;
-        vector<int>arr(n);
-        for(int i=0;i<n;i++){
+        vector<int> arr(n);
+
+        for(int i=0; i<n; i++){
             cin>>arr[i];
         }
-        cout<<Maximum(arr,n)<<endl;
+        cout<<Maxprofit(arr,n)<<endl;
+
     }
     return 0;
 }
-
