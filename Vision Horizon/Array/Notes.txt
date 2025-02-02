@@ -1,0 +1,10 @@
+Some important things to do operations in arrays
+
+1. For Rotation the arrays 
+    - An array that was originally sorted but rotated once at some pivot. which means the rotation is only one at ta time and if it increaes from one it will return false -> some question are listed below-:
+    1. https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
+    - When multiple rotations are allowed, you're essentially asking: 
+    "Is this array a permutation of a sorted array?"
+    -> Some question are listed below-:
+    1. https://leetcode.com/problems/rotate-function
+    
