@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    // In this we know that one rotation is allowed if more than one rotation is allowed then cnt can be more than 1
+    // In this we know that one rotation is allo    wed if more than one rotation is allowed then cnt can be more than 1
     int n;
     cin>>n;
     vector<int> nums(n);
