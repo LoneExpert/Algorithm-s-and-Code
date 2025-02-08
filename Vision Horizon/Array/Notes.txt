@@ -6,5 +6,5 @@ Some important things to do operations in arrays
     - When multiple rotations are allowed, you're essentially asking: 
     "Is this array a permutation of a sorted array?"
     -> Some question are listed below-:
-    1. https://leetcode.com/problems/rotate-function
+    2. https://leetcode.com/problems/rotate-function
     
