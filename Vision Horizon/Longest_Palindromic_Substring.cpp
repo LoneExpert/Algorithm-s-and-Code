@@ -1,6 +1,6 @@
 // Leetcode
 // Medium - 5
-// Given a string s, return the longest palindromic substring  in s.
+// Given a string s, return the longest palindromic substring  in string s.
 
 // Approach 1 - Using Two Loops
 #include<iostream>
