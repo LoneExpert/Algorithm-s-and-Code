@@ -1,4 +1,4 @@
-Some important things to do operations in arrays
+Some important things to do operations in arrays -:
 
 1. For Rotation the arrays 
     - An array that was originally sorted but rotated once at some pivot. which means the rotation is only one at ta time and if it increaes from one it will return false -> some question are listed below-:
