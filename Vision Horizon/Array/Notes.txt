@@ -7,4 +7,18 @@ Some important things to do operations in arrays -:
     "Is this array a permutation of a sorted array?"
     -> Some question are listed below-:
     2. https://leetcode.com/problems/rotate-function
-    
+
+🔹 Example Topics & Problems
+
+String Manipulation
+
+Remove All Adjacent Duplicates in String
+Implement strStr()
+Stack-Based Problems
+
+Valid Parentheses
+Decode String
+Sliding Window (Efficient for substrings, intervals)
+
+Longest Substring Without Repeating Characters
+Minimum Window Substring
